@@ -1,0 +1,328 @@
+/* fonte */
+head,
+body {
+    font-family: "Roboto";
+}
+
+/* Header */
+
+.header {
+    display         : flex;
+    justify-content : space-around;
+    height          : 54px;
+    width           : 100%;
+    align-items     : center;
+    background-color: #FFFFFF;
+    border          : 1px solid #DBDBDB;
+}
+
+/* logo */
+.logo {
+    display: flex;
+}
+
+.logo-p {
+    height: 22px;
+}
+
+.logo-g {
+    height: 29px;
+}
+
+.b-vertical-header {
+    width           : 1px;
+    height          : 22px;
+    margin-left     : 10px;
+    margin-right    : 10px;
+    background-color: #DBDBDB;
+}
+
+/* Fim-logo */
+/* Pesquisa */
+.pesquisa {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    width          : 215px;
+    height         : 28px;
+    border         : 1px solid #DBDBDB;
+    border-radius  : 3px;
+}
+
+.pesquisa p {
+    color      : #979797;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 12px;
+    line-height: 14px;
+}
+
+/* fim pesquisa */
+/* atalhos */
+.atalhos {
+    display        : flex;
+    justify-content: space-between;
+    width          : 148px;
+}
+
+.atalhos img {
+    height: 18px;
+}
+
+/* Fim-Header*/
+
+/* Body */
+
+body {
+    background-color: #E5E5E5;
+}
+
+.corpo {
+    display        : flex;
+    justify-content: center;
+    margin-top     : 34px;
+}
+
+.content {
+    position: relative;
+}
+
+/* storys */
+.caixaStory {
+    display        : flex;
+    position       : relative;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+}
+
+.caixaStory p {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 12px;
+    line-height: 14px;
+    margin-top: 1px;
+    color      : #262626;
+}
+
+.story {
+    display         : flex;
+    align-items     : center;
+    box-sizing      : border-box;
+    overflow        : hidden;
+    height          : 118px;
+    width           : 614px;
+    background-color: #FFFFFF;
+    border          : 1px solid #DBDBDB;
+    border-radius   : 3px;
+}
+
+.perfil {
+    display    : flex;
+    flex-shrink: 0;
+    position   : relative;
+    margin     : 0 7px;
+    height     : 66px;
+    width      : 66px;
+}
+
+.setinha {
+    position: absolute;
+    right   : 8px;
+    top     : 46px;
+    height  : 26px;
+    width   : 26px;
+    z-index : 10;
+    fill    : #FFFFFF;
+    filter  : drop-shadow(px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.borda {
+    position: absolute;
+    width   : 100%;
+    height  : auto;
+}
+
+.fotinho {
+    position: absolute;
+    left    : 7.5%;
+    top     : 8%;
+    width   : 85%;
+}
+
+/* menu direito */
+.menu {
+    width      : 292px;
+    height     : 464px;
+    margin-left: 28px;
+}
+
+/* foto e nome do usuário */
+.user {
+    display    : flex;
+    align-items: center;
+    width      : 292px;
+    height     : 100px;
+}
+
+.imagem-perfil {
+    width : 56px;
+    height: 56px;
+}
+
+.nome {
+    margin-left: 17px;
+    width      : 100px;
+    height     : 40px;
+}
+
+.perfil-id {
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    line-height: 16px;
+    align-items: center;
+    color      : #262626;
+}
+
+.nome-perfil {
+    font-style : normal;
+    font-weight: 300;
+    font-size  : 14px;
+    line-height: 16px;
+    align-items: center;
+    color      : #8E8E8E;
+}
+
+/* fim */
+
+/* sugestões e mais */
+
+.suggestName {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.suggestName h1 {
+    font-weight: 500;
+    font-size  : 12px;
+    line-height: 14px;
+    color      : #8E8E8E
+}
+
+.suggestName h2 {
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 12px;
+    line-height: 14px;
+    color      : #262626;
+}
+
+.suggest1 {
+    display: flex;
+}
+
+.suggestblock {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    margin         : 16px 0;
+}
+
+.suggestblock p {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size  : 12px;
+    line-height: 14px;
+    color      : #139EF2;
+
+}
+
+.suggest1Nome {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-between;
+    margin-left    : 11px;
+}
+
+.suggest1Nome h1 {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    line-height: 16px;
+    color      : #262626;
+}
+
+.suggest1Nome h2 {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 12px;
+    line-height: 14px;
+    color      : #8E8E8E;
+}
+
+/* fim */
+
+.about {
+    margin-top : 33px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 11px;
+    line-height: 13px;
+    color      : #C7C7C7
+}
+
+/* Feed */
+/* Primeiro */
+.feed {
+    margin-top: 24px;
+}
+
+.dots {
+    Height      : 16px;
+    width       : 16px;
+    fill        : #262626;
+    margin-right: 17px;
+}
+
+.feedHeader {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    height          : 61px;
+    width           : 612px;
+    background-color: #FFFFFF;
+    border          : 1px solid #DBDBDB;
+    box-sizing      : border-box;
+    border-radius   : 3px;
+}
+
+.feedPerfil {
+    display    : flex;
+    align-items: center;
+    margin-left: 17px;
+}
+
+.feedPerfil img {
+    height: 32px;
+    width: 32px;
+    margin-right: 15px;
+}
+.feed1 > img {
+    display: flex;
+    height: 612px;
+    width: 612px;
+}
+.interacao {
+    height: 76px;
+    width: 614px;
+    background-color: #FFFFFF;
+}
+
+}
+
+}
