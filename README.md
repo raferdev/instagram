@@ -31,7 +31,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This project i use to training the HTML and CSS notation. I have to search by specific tags in html to recreate the original site and css properties to interage with user and organize the front-end. Its responsive layout and can change with 3 types of display widths (bigger than 935px, bigger than 614px and less than 614px).
+This project i use to training the HTML and CSS notation. I had to search by specific tags in html to recreate the original site and css properties to interage with user and organize the front-end. Its responsive layout and can change with 3 types of display widths (bigger than 935px, bigger than 614px and less than 614px).
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
